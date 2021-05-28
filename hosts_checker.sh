@@ -20,13 +20,6 @@ read -rp "[ * ] " os
 
 if [[ os -eq 1 ]]; then
     read -rp '[ * ] Enter your ip: ' ip
-    if [[ "$ip" =~ ^[0-9]+$ ]]; then
-        echo ""
-    else
-        echo "$okegreen[$orange * $okegreen]$red Wrong input"
-        sleep 0.5
-        ./hosts_checker.sh
-    fi
 elif [[ os -eq 2 ]]; then
     InT3R=`netstat -r | grep "default" | awk {'print $8'}` 2>/dev/null
     ip=`ifconfig $InT3R | egrep -w "inet" | awk '{print $2}'`
