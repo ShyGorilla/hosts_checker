@@ -8,10 +8,12 @@ Host Checker is a tool that can check if the host in your network is active or i
 
 `cd hosts_checker` // Change the directory to the tool
 
+`chmod +x hosts_checker.sh` // Change the permission of the file
+
 `./hosts_checker.sh` // To run the tool
 
 or you can do all that with only one command to copy
-`git clone https://github.com/ShyGorilla/hosts_checker.git ; cd hosts_checker ; ./hosts_checker.sh`
+`git clone https://github.com/ShyGorilla/hosts_checker.git ; cd hosts_checker ; chmod +x hosts_checker.sh ; ./hosts_checker.sh`
 
 ## Screenshot
 
