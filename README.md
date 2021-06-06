@@ -3,6 +3,11 @@
 ## What is Hosts Checker ?
 Host Checker is a tool that can check if the host in your network is active or inactive.
 
+## Supported OS 💻
+
+![Linux](https://img.shields.io/badge/-Linux-000000?style=flat&logo=linux&logoColor=FCC624)
+![Mac](http://img.shields.io/badge/-Mac-0078D6?style=flat-square&logo=apple&logoColor=ffffff)
+
 ## Build and install from source
 `git clone https://github.com/ShyGorilla/hosts_checker.git` // Cloninng the tool
 
